@@ -1,7 +1,7 @@
 import { Route, Routes  } from 'react-router-dom';
 import { useState } from 'react';
 import React from 'react';
-import './main.css';
+import './style/main.css';
 import Home from './pages/home';
 import HomeList from './pages/homelist';
 import Contents from './pages/contents';
