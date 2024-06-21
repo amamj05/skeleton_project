@@ -8,7 +8,6 @@ export default function Header(props) {
                             :<img src={happiness} className='header-emoji' alt='useImg'></img>;
     return (
         <div className='main-header'>
-            {/* <input className='textInput'></input> */}
             <div className='textInput'>"Success is not final, failure is not fatal: 
                 It is the courage to continue that counts."
             </div>
