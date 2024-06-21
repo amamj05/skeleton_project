@@ -22,7 +22,7 @@ export default function Home(props) {
     }
     return (
         <div className='home'>
-            <h1>Please choose your today's feelings to face</h1>
+            <h1 className='home-h1'>Please choose your today's feelings to face</h1>
             <div className='emoji-box'>
                 <ul className='no-dot'>
                     {lis}

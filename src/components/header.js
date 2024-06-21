@@ -9,7 +9,9 @@ export default function Header(props) {
     return (
         <div className='main-header'>
             {/* <input className='textInput'></input> */}
-            <div className='textInput'>오늘의 기분</div>
+            <div className='textInput'>"Success is not final, failure is not fatal: 
+                It is the courage to continue that counts."
+            </div>
             {useImg}
         </div>
     )

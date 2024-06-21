@@ -19,6 +19,7 @@ export default function Contents(props) {
     { id: 5, class: "sleep", body: <Sleep></Sleep>},
     { id: 6, class: "trip", body: <Trip></Trip>}
     ];
+    
     const { num } = useParams();
     let lis = [];
     for (let i = 0; i < 6; i++) {
