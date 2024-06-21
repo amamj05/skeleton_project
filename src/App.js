@@ -20,7 +20,6 @@ const imagePath = importAll(
 
 function Home(props) {
     let lis = [];
-
     for (let i = 0; i < imagePath.length; i++) {
         if (imagePath[i].substr(14, 10) === 'face-emoji') {
 
@@ -31,8 +30,6 @@ function Home(props) {
             </NavLink></li>)
         }
     }
-
-
     return (
         <div className='skeleton-home'>
             <h1>오늘의 기분을 골라주세요</h1>
@@ -45,11 +42,8 @@ function Home(props) {
     )
 }
 
+
 function Header(props) {
-
-
-
-
     let useImg = <img src={props.emoji} className='header-emoji'></img>
     return (
         <div className='skeleton-header'>
@@ -69,7 +63,6 @@ function HomeList(props) {
     { id: 5, class: "sleep", img: <img src={sleep} className='contentsbox-list' /> },
     { id: 6, class: "trip", img: <img src={trip} className='contentsbox-list' /> }
     ];
-
 
     let lis = [];
     for (let i = 1; i < 7; i++) {
@@ -123,8 +116,6 @@ function App() {
                 <Route path='/contentslist/:num' element={<Contents emoji={Emoji} />}></Route>
             </Routes>
         </div>
-
-
     )
 }
 
