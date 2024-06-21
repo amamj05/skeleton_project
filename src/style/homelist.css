@@ -1,4 +1,4 @@
-.skeleton-homelist {
+.homelist {
     display: grid;  
     grid-template-columns: repeat(auto-fill,300px 300px 300px);
     grid-template-rows: repeat(auto-fill);
@@ -15,4 +15,13 @@
     height: 350px;
     object-fit: cover;
     z-index: 1;  
+    
 }
+
+.homelist li a{
+    text-decoration: none;
+}
+
+.homelist li a :hover{  
+    background-color: rgba(245, 191, 158, 0.356);
+  }

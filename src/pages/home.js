@@ -21,7 +21,7 @@ export default function Home(props) {
         }
     }
     return (
-        <div className='skeleton-home'>
+        <div className='home'>
             <h1>오늘의 기분을 골라주세요</h1>
             <div className='emoji-box'>
                 <ul className='no-dot'>

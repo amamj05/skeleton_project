@@ -21,13 +21,14 @@ export default function HomeList(props) {
 
     let lis = [];
     for (let i = 1; i < 7; i++) {
-        lis.push(<li key={i}><NavLink to={"/contentslist/" + i}>{program[i - 1].img}</NavLink></li>);
+        lis.push(<li key={i}><NavLink to={"/contentslist/" + i}>{program[i - 1].img}
+        <h2>{program[i - 1].class}</h2></NavLink></li>);
     }
     
     return (
         <div>
             <Header emoji={props.emoji}></Header>
-            <div className='skeleton-homelist'>
+            <div className='homelist'>
                 {lis}
             </div>
         </div>

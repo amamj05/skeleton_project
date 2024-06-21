@@ -1,4 +1,4 @@
-.skeleton-header {
+.main-header {
     top: 0cap;
     padding-top: 12px;
     padding-right: 30px;
@@ -33,6 +33,7 @@ h1 {
 li {
     display: inline;
     text-align:center;
+    text-decoration: none;
 }
 
 .textInput {
