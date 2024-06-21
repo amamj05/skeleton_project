@@ -1,8 +1,9 @@
 .contents-box {
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 5%;
+    padding: 10%;
     margin-bottom: 5%;
+    background-color: white;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
 }
 
 .card-box {

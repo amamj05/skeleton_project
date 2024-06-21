@@ -22,7 +22,7 @@ export default function Home(props) {
     }
     return (
         <div className='home'>
-            <h1>오늘의 기분을 골라주세요</h1>
+            <h1>Please choose your today's feelings to face</h1>
             <div className='emoji-box'>
                 <ul className='no-dot'>
                     {lis}
@@ -32,4 +32,3 @@ export default function Home(props) {
     )
 }
 
- 

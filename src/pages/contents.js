@@ -27,7 +27,7 @@ export default function Contents(props) {
     }
 
     return (
-        <div>
+        <div className='home-color'>
             <Header emoji={props.emoji}></Header>
             <div className='contents-box'>
                 {lis}

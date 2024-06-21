@@ -2,12 +2,15 @@
     display: grid;  
     grid-template-columns: repeat(auto-fill,300px 300px 300px);
     grid-template-rows: repeat(auto-fill);
-    margin-top: 90px;
+    padding-top: 46px;
     padding-left: 15%;
     padding-right: 13%;
     grid-gap: 10%;
     justify-content: center;
     margin-bottom: 19%;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    background-color: white;
 }
 
 .contentsbox-list {
@@ -15,13 +18,12 @@
     height: 350px;
     object-fit: cover;
     z-index: 1;  
-    
 }
 
 .homelist li a{
     text-decoration: none;
 }
 
-.homelist li a :hover{  
+.homelist li a h2:hover{  
     background-color: rgba(245, 191, 158, 0.356);
-  }
+}

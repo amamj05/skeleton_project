@@ -2,6 +2,7 @@
     position: relative;
     padding-top: 10%;
     text-align: center;
+    background-color: rgba(127, 255, 212, 0.85);
 }
 
 .home-emoji {
@@ -12,6 +13,10 @@
     object-fit: cover;
 }
 
+.no-dot li :hover{
+    transform: rotate(-45deg);
+}
+
 .no-dot {
     padding: 0;
     margin: 0;
@@ -19,4 +24,8 @@
     margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(3, minmax(auto, 1fr));
+}
+
+.home h1 {
+    background-color: rgba(255, 255, 255, 0.55);
 }
