@@ -46,11 +46,12 @@ li {
 }
 
 .textInput {
-    background-color: rgb(180, 180, 180);
+    /* background-color: rgb(180, 180, 180); */
     border: none;
     width: 200px;
     height: 31px;
     padding-right: 43px;
+    text-align: right;
     visibility: hidden;
 }
 
