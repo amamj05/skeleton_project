@@ -11,12 +11,12 @@ import trip from '../assets/trip.png';
 
 
 export default function HomeList(props) {
-    const program = [{ id: 1, class: "meditation", img: <img src={meditation} className='contentsbox-list' /> },
-    { id: 2, class: "nature", img: <img src={nature} className='contentsbox-list' /> },
-    { id: 3, class: "gathering", img: <img src={gathering} className='contentsbox-list' /> },
-    { id: 4, class: "test", img: <img src={test} className='contentsbox-list' /> },
-    { id: 5, class: "sleep", img: <img src={sleep} className='contentsbox-list' /> },
-    { id: 6, class: "trip", img: <img src={trip} className='contentsbox-list' /> }
+    const program = [{ id: 1, class: "meditation", img: <img src={meditation} className='contentsbox-list' alt='meditation'/> },
+    { id: 2, class: "nature", img: <img src={nature} className='contentsbox-list' alt='nature'/> },
+    { id: 3, class: "gathering", img: <img src={gathering} className='contentsbox-list' alt='gathering'/> },
+    { id: 4, class: "test", img: <img src={test} className='contentsbox-list' alt='test'/> },
+    { id: 5, class: "sleep", img: <img src={sleep} className='contentsbox-list' alt='sleep'/> },
+    { id: 6, class: "trip", img: <img src={trip} className='contentsbox-list' alt='trip'/> }
     ];
 
     let lis = [];

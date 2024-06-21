@@ -17,7 +17,7 @@ export default function Home(props) {
             lis.push(<li key={i}><NavLink to="/homelist" >
                 <img src={imagePath[i]} id={i} className='home-emoji' onClick={() => {
                     props.setEmoji(imagePath[i]);
-                }}></img>
+                }} alt='face-emoji-img'></img>
             </NavLink></li>)
         }
     }
