@@ -1,8 +1,8 @@
-.skeleton-home {
+/* .skeleton-home {
     position: relative;
     padding-top: 10%;
     text-align: center;
-}
+} */
 
 .skeleton-header {
     top: 0cap;
@@ -13,14 +13,14 @@
     justify-content: right;
 }
 
-.no-dot {
+/* .no-dot {
     padding: 0;
     margin: 0;
     list-style-type: none;
     margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(3, minmax(auto, 1fr));
-}
+} */
 
 .emoji-box {
     display: flex;
@@ -30,13 +30,13 @@
     align-items: center;
 }
 
-.home-emoji {
+/* .home-emoji {
     grid-area: emoji;
     width: 70px;
     height: 70px;
     margin: 30px;
     object-fit: cover;
-}
+} */
 
 .header-emoji {
     width: 40px;
@@ -77,7 +77,7 @@ li {
 
 
 
-.skeleton-homelist {
+/* .skeleton-homelist {
     display: grid;  
     grid-template-columns: repeat(auto-fill,300px 300px 300px);
     grid-template-rows: repeat(auto-fill);
@@ -87,25 +87,16 @@ li {
     grid-gap: 10%;
     justify-content: center;
     margin-bottom: 19%;
-}
+} */
 
 
-.contentsbox-list {
+/* .contentsbox-list {
     width: 300px;
     height: 350px;
     object-fit: cover;
     z-index: 1;  
-}
+} */
 
-.contents-box {
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-.card-box {
-    width: 500px;
-}
 
 a {
     /* border: 1px solid violet; */

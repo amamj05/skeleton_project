@@ -1,0 +1,18 @@
+.skeleton-homelist {
+    display: grid;  
+    grid-template-columns: repeat(auto-fill,300px 300px 300px);
+    grid-template-rows: repeat(auto-fill);
+    margin-top: 90px;
+    padding-left: 15%;
+    padding-right: 13%;
+    grid-gap: 10%;
+    justify-content: center;
+    margin-bottom: 19%;
+}
+
+.contentsbox-list {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    z-index: 1;  
+}
