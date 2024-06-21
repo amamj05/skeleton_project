@@ -4,7 +4,6 @@ import '../style/home.css';
 
 
 const importAll = (requireContext) => requireContext.keys().map(requireContext);
-
 const imagePath = importAll(
     require.context('../assets', true, /\.(png|jpe?g|svg)$/)
 );

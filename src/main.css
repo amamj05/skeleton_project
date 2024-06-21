@@ -1,9 +1,3 @@
-/* .skeleton-home {
-    position: relative;
-    padding-top: 10%;
-    text-align: center;
-} */
-
 .skeleton-header {
     top: 0cap;
     padding-top: 12px;
@@ -13,15 +7,6 @@
     justify-content: right;
 }
 
-/* .no-dot {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    margin-top: 70px;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(auto, 1fr));
-} */
-
 .emoji-box {
     display: flex;
     padding-left: 30%;
@@ -29,14 +14,6 @@
     justify-content: space-around;
     align-items: center;
 }
-
-/* .home-emoji {
-    grid-area: emoji;
-    width: 70px;
-    height: 70px;
-    margin: 30px;
-    object-fit: cover;
-} */
 
 .header-emoji {
     width: 40px;
@@ -75,29 +52,6 @@ li {
     visibility: visible;
 }
 
-
-
-/* .skeleton-homelist {
-    display: grid;  
-    grid-template-columns: repeat(auto-fill,300px 300px 300px);
-    grid-template-rows: repeat(auto-fill);
-    margin-top: 90px;
-    padding-left: 15%;
-    padding-right: 13%;
-    grid-gap: 10%;
-    justify-content: center;
-    margin-bottom: 19%;
+/* a {
+    border: 1px solid violet;
 } */
-
-
-/* .contentsbox-list {
-    width: 300px;
-    height: 350px;
-    object-fit: cover;
-    z-index: 1;  
-} */
-
-
-a {
-    /* border: 1px solid violet; */
-}
