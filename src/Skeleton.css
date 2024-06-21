@@ -28,22 +28,24 @@
     padding-right: 30%;
     justify-content: space-around;
     align-items: center;
+    /* object-fit: cover; */
 }
 
 .home-emoji {
     grid-area: emoji;
     width: 70px;
     height: 70px;
-    background-color: rgb(180, 180, 180);
+    /* background-color: rgb(180, 180, 180); */
     margin: 30px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    object-fit: cover;
 }
 
 .header-emoji {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    background-color: rgb(180, 180, 180);
+    /* border-radius: 50%; */
+    /* background-color: rgb(180, 180, 180); */
 }
 
 h1 {
@@ -58,6 +60,7 @@ h1 {
 
 li {
     display: inline;
+    text-align:center;
 }
 
 .textInput {
@@ -99,12 +102,14 @@ li {
 .contentsbox-list {
     width: 300px;
     height: 350px;
-    background-color: rgb(180, 180, 180);
+    /* background-color: rgb(180, 180, 180); */
+    object-fit: cover;
     z-index: 1;
     /* grid-area: list-Card; */
     /* display: flex;
     align-items: center;
     justify-content: center; */
+   
 }
 
 .contents-box {
@@ -115,4 +120,9 @@ li {
 }
 .card-box {
     width: 500px;
+}
+
+a {
+    border: 1px solid violet;
+  
 }
