@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
-import happiness from '../assets/face-emoji-happiness.png'
+import React from 'react';
+import happiness from '../assets/face-emoji-happiness.png';
+import home from '../assets/home.png';
+import { NavLink } from 'react-router-dom';
 
 
 export default function Header(props) {
@@ -12,6 +14,7 @@ export default function Header(props) {
                 It is the courage to continue that counts."
             </div>
             {useImg}
+            <NavLink to={"/"}><img src={home} className='header-home' alt='home'></img></NavLink>
         </div>
     )
 }

@@ -6,7 +6,7 @@
     top: 0cap;
     padding-top: 12px;
     padding-right: 30px;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: right;
 }
@@ -20,6 +20,13 @@
 }
 
 .header-emoji {
+    width: 40px;
+    height: 40px;
+    margin-right: -40px;
+}
+
+.header-home {
+    margin-top: 50px;
     width: 40px;
     height: 40px;
 }
